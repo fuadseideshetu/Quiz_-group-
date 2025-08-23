@@ -113,3 +113,64 @@ elif mark >=50:
     print(f"{mark}/50, Satisfactory")
 else:
     print(f"{mark}/50, Failed")
+import random
+
+# 25 multiple choice questions (5 per subject)
+questions = [
+    # English
+    {"q": "1. Which word is a synonym of 'happy'?", "options": ["Sad", "Joyful", "Angry", "Tired"], "answer": ["Joyful"]},
+    {"q": "2. What is the plural of 'child'?", "options": ["Childs", "Children", "Childes", "Childrens"], "answer": ["Children"]},
+    {"q": "3. Which sentence is correct?", "options": ["She go to school.", "She goes to school.", "She going school.", "She goed to school."], "answer": ["She goes to school."]},
+    {"q": "4. Which part of speech is the word 'quickly'?", "options": ["Noun", "Verb", "Adjective", "Adverb"], "answer": ["Adverb"]},
+    {"q": "5. 'He ___ playing football.'", "options": ["are", "is", "were", "be"], "answer": ["is"]},
+
+    # Chemistry
+    {"q": "6. What is the chemical symbol of water?", "options": ["O2", "CO2", "H2O", "HO2"], "answer": ["H2O"]},
+    {"q": "7. Atomic number of Carbon is?", "options": ["6", "8", "12", "14"], "answer": ["6"]},
+    {"q": "8. Which gas is used by plants in photosynthesis?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "answer": ["Carbon dioxide"]},
+    {"q": "9. pH value less than 7 indicates?", "options": ["Neutral", "Acidic", "Basic", "Salty"], "answer": ["Acidic"]},
+    {"q": "10. NaCl is commonly known as?", "options": ["Sugar", "Salt", "Baking soda", "Chalk"], "answer": ["Salt"]},
+
+    # Biology
+    {"q": "11. The powerhouse of the cell is?", "options": ["Nucleus", "Mitochondria", "Chloroplast", "Ribosome"], "answer": ["Mitochondria"]},
+    {"q": "12. Which blood cells fight infection?", "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"], "answer": ["White blood cells"]},
+    {"q": "13. Plants prepare food by?", "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"], "answer": ["Photosynthesis"]},
+    {"q": "14. Which organ purifies blood in humans?", "options": ["Heart", "Kidney", "Liver", "Lungs"], "answer": ["Kidney"]},
+    {"q": "15. The largest organ in the human body is?", "options": ["Heart", "Skin", "Brain", "Lungs"], "answer": ["Skin"]},
+
+    # Physics
+    {"q": "16. SI unit of force is?", "options": ["Joule", "Newton", "Watt", "Pascal"], "answer": ["Newton"]},
+    {"q": "17. Speed of light in vacuum is?", "options": ["3x10^8 m/s", "3x10^6 m/s", "1.5x10^8 m/s", "1x10^6 m/s"], "answer": ["3x10^8 m/s"]},
+    {"q": "18. Which energy is possessed by a moving body?", "options": ["Potential", "Kinetic", "Thermal", "Nuclear"], "answer": ["Kinetic"]},
+    {"q": "19. Earth’s gravity pulls objects towards?", "options": ["Moon", "Sun", "Center of Earth", "North Pole"], "answer": ["Center of Earth"]},
+    {"q": "20. 1 kilowatt = ? watts", "options": ["100", "1000", "10", "10,000"], "answer": ["1000"]},
+
+    # Maths
+    {"q": "21. Simplify: 12 ÷ 3 × 2", "options": ["2", "6", "8", "10"], "answer": ["8"]},
+    {"q": "22. Square root of 81 is?", "options": ["7", "8", "9", "10"], "answer": ["9"]},
+    {"q": "23. The value of π is approximately?", "options": ["2.14", "3.14", "4.14", "5.14"], "answer": ["3.14"]},
+    {"q": "24. Perimeter of a square with side 5cm is?", "options": ["10cm", "15cm", "20cm", "25cm"], "answer": ["20cm"]},
+    {"q": "25. 15% of 200 is?", "options": ["25", "30", "35", "40"], "answer": ["30"]}
+]
+
+score = 0
+
+for q in questions:
+    print("\n" + q["q"])
+    for i, opt in enumerate(q["options"], 1):
+        print(f"{i}. {opt}")
+    
+    try:
+        choice = input("Your answer(s) (comma separated, e.g., 2 or 2,3): ").split(',')
+        chosen = [q["options"][int(c.strip()) - 1] for c in choice if c.strip().isdigit()]
+        if set(chosen) == set(q["answer"]):
+            print("✅ Correct!")
+            score += 1
+        else:
+            print(f"❌ Wrong! Correct answer(s): {', '.join(q['answer'])}")
+    except:
+        print("Invalid input. Skipping question.")
+
+print(f"\nYour final score: {score}/25")
+
+
