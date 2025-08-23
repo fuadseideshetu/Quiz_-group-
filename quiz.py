@@ -150,7 +150,275 @@ questions = [
     {"q": "22. Square root of 81 is?", "options": ["7", "8", "9", "10"], "answer": ["9"]},
     {"q": "23. The value of π is approximately?", "options": ["2.14", "3.14", "4.14", "5.14"], "answer": ["3.14"]},
     {"q": "24. Perimeter of a square with side 5cm is?", "options": ["10cm", "15cm", "20cm", "25cm"], "answer": ["20cm"]},
-    {"q": "25. 15% of 200 is?", "options": ["25", "30", "35", "40"], "answer": ["30"]}
+    {"q": "25. 15% of 200 is?", "options": ["25", "30", "35", "40"], "answer": ["30"]},
+    
+    # Biology
+    {
+        "question": "1. What is the powerhouse of the cell?",
+        "options": ["A. Ribosome", "B. Nucleus", "C. Mitochondria", "D. Golgi Apparatus"],
+        "answer": "C"
+    },
+    {
+        "question": "2. Which vitamin is produced when the skin is exposed to sunlight?",
+        "options": ["A. Vitamin A", "B. Vitamin B12", "C. Vitamin D", "D. Vitamin C"],
+        "answer": "C"
+    },
+    {
+        "question": "3. Which organ filters blood in the human body?",
+        "options": ["A. Liver", "B. Kidney", "C. Heart", "D. Lungs"],
+        "answer": "B"
+    },
+    {
+        "question": "4. What is the main function of red blood cells?",
+        "options": ["A. Fight infection", "B. Clot blood", "C. Carry oxygen", "D. Digest food"],
+        "answer": "C"
+    },
+    {
+        "question": "5. DNA stands for?",
+        "options": ["A. Deoxyribonucleic Acid", "B. Dioxyribonucleic Acid", "C. Deoxyribose Nucleic Acid", "D. Deoxynucleic Acid"],
+        "answer": "A"
+    },
+
+    # Physics
+    {
+        "question": "6. What is the unit of force?",
+        "options": ["A. Watt", "B. Pascal", "C. Newton", "D. Joule"],
+        "answer": "C"
+    },
+    {
+        "question": "7. What is the speed of light?",
+        "options": ["A. 3x10^8 m/s", "B. 3x10^6 m/s", "C. 3x10^5 m/s", "D. 3x10^3 m/s"],
+        "answer": "A"
+    },
+    {
+        "question": "8. Which law states F = ma?",
+        "options": ["A. Newton’s First Law", "B. Newton’s Second Law", "C. Newton’s Third Law", "D. Law of Gravity"],
+        "answer": "B"
+    },
+    {
+        "question": "9. What type of lens is used in a magnifying glass?",
+        "options": ["A. Convex", "B. Concave", "C. Cylindrical", "D. Plane"],
+        "answer": "A"
+    },
+    {
+        "question": "10. Which of these is not a vector quantity?",
+        "options": ["A. Velocity", "B. Acceleration", "C. Mass", "D. Force"],
+        "answer": "C"
+    },
+
+    # Aptitude
+    {
+        "question": "11. What is the next number in the sequence: 2, 4, 8, 16, ...?",
+        "options": ["A. 18", "B. 32", "C. 24", "D. 20"],
+        "answer": "B"
+    },
+    {
+        "question": "12. A train travels 120 km in 2 hours. What is its speed?",
+        "options": ["A. 60 km/h", "B. 70 km/h", "C. 80 km/h", "D. 90 km/h"],
+        "answer": "A"
+    },
+    {
+        "question": "13. What is 15% of 200?",
+        "options": ["A. 30", "B. 20", "C. 25", "D. 35"],
+        "answer": "A"
+    },
+    {
+        "question": "14. If 3x = 12, what is x?",
+        "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+        "answer": "B"
+    },
+    {
+        "question": "15. A man walks 5 km north, then 3 km east. How far is he from the starting point?",
+        "options": ["A. 5 km", "B. 6 km", "C. 8 km", "D. √34 km"],
+        "answer": "D"
+    },
+
+    # Chemistry
+    {
+        "question": "16. H2O is the chemical formula of?",
+        "options": ["A. Hydrogen", "B. Oxygen", "C. Water", "D. Hydroxide"],
+        "answer": "C"
+    },
+    {
+        "question": "17. Which gas is used in balloons?",
+        "options": ["A. Helium", "B. Hydrogen", "C. Oxygen", "D. Nitrogen"],
+        "answer": "A"
+    },
+    {
+        "question": "18. pH less than 7 indicates?",
+        "options": ["A. Neutral", "B. Acid", "C. Base", "D. Salt"],
+        "answer": "B"
+    },
+    {
+        "question": "19. What is the symbol of Sodium?",
+        "options": ["A. So", "B. Sn", "C. Na", "D. N"],
+        "answer": "C"
+    },
+    {
+        "question": "20. Which of the following is an alkali metal?",
+        "options": ["A. Calcium", "B. Iron", "C. Sodium", "D. Copper"],
+        "answer": "C"
+    },
+
+    # Mathematics
+    {
+        "question": "21. What is the derivative of x²?",
+        "options": ["A. 1", "B. 2x", "C. x", "D. x²"],
+        "answer": "B"
+    },
+    {
+        "question": "22. What is the value of π?",
+        "options": ["A. 2.14", "B. 3.14", "C. 3.41", "D. 4.13"],
+        "answer": "B"
+    },
+    {
+        "question": "23. Solve: 5 + 3 * 2",
+        "options": ["A. 11", "B. 16", "C. 21", "D. 13"],
+        "answer": "A"
+    },
+    {
+        "question": "24. What is the square root of 144?",
+        "options": ["A. 11", "B. 14", "C. 13", "D. 12"],
+        "answer": "D"
+    },
+    {
+        "question": "25. Which of the following is a prime number?",
+        "options": ["A. 9", "B. 15", "C. 17", "D. 21"],
+        "answer": "C"
+    },
+    {
+        "question": "1. What is the powerhouse of the cell?",
+        "options": ["A. Ribosome", "B. Nucleus", "C. Mitochondria", "D. Golgi Apparatus"],
+        "answer": "C"
+    },
+    {
+        "question": "2. Which vitamin is produced when the skin is exposed to sunlight?",
+        "options": ["A. Vitamin A", "B. Vitamin B12", "C. Vitamin D", "D. Vitamin C"],
+        "answer": "C"
+    },
+    {
+        "question": "3. Which organ filters blood in the human body?",
+        "options": ["A. Liver", "B. Kidney", "C. Heart", "D. Lungs"],
+        "answer": "B"
+    },
+    {
+        "question": "4. What is the main function of red blood cells?",
+        "options": ["A. Fight infection", "B. Clot blood", "C. Carry oxygen", "D. Digest food"],
+        "answer": "C"
+    },
+    {
+        "question": "5. DNA stands for?",
+        "options": ["A. Deoxyribonucleic Acid", "B. Dioxyribonucleic Acid", "C. Deoxyribose Nucleic Acid", "D. Deoxynucleic Acid"],
+        "answer": "A"
+    },
+
+    # Physics
+    {
+        "question": "6. What is the unit of force?",
+        "options": ["A. Watt", "B. Pascal", "C. Newton", "D. Joule"],
+        "answer": "C"
+    },
+    {
+        "question": "7. What is the speed of light?",
+        "options": ["A. 3x10^8 m/s", "B. 3x10^6 m/s", "C. 3x10^5 m/s", "D. 3x10^3 m/s"],
+        "answer": "A"
+    },
+    {
+        "question": "8. Which law states F = ma?",
+        "options": ["A. Newton’s First Law", "B. Newton’s Second Law", "C. Newton’s Third Law", "D. Law of Gravity"],
+        "answer": "B"
+    },
+    {
+        "question": "9. What type of lens is used in a magnifying glass?",
+        "options": ["A. Convex", "B. Concave", "C. Cylindrical", "D. Plane"],
+        "answer": "A"
+    },
+    {
+        "question": "10. Which of these is not a vector quantity?",
+        "options": ["A. Velocity", "B. Acceleration", "C. Mass", "D. Force"],
+        "answer": "C"
+    },
+
+    # Aptitude
+    {
+        "question": "11. What is the next number in the sequence: 2, 4, 8, 16, ...?",
+        "options": ["A. 18", "B. 32", "C. 24", "D. 20"],
+        "answer": "B"
+    },
+    {
+        "question": "12. A train travels 120 km in 2 hours. What is its speed?",
+        "options": ["A. 60 km/h", "B. 70 km/h", "C. 80 km/h", "D. 90 km/h"],
+        "answer": "A"
+    },
+    {
+        "question": "13. What is 15% of 200?",
+        "options": ["A. 30", "B. 20", "C. 25", "D. 35"],
+        "answer": "A"
+    },
+    {
+        "question": "14. If 3x = 12, what is x?",
+        "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+        "answer": "B"
+    },
+    {
+        "question": "15. A man walks 5 km north, then 3 km east. How far is he from the starting point?",
+        "options": ["A. 5 km", "B. 6 km", "C. 8 km", "D. √34 km"],
+        "answer": "D"
+    },
+
+    # Chemistry
+    {
+        "question": "16. H2O is the chemical formula of?",
+        "options": ["A. Hydrogen", "B. Oxygen", "C. Water", "D. Hydroxide"],
+        "answer": "C"
+    },
+    {
+        "question": "17. Which gas is used in balloons?",
+        "options": ["A. Helium", "B. Hydrogen", "C. Oxygen", "D. Nitrogen"],
+        "answer": "A"
+    },
+    {
+        "question": "18. pH less than 7 indicates?",
+        "options": ["A. Neutral", "B. Acid", "C. Base", "D. Salt"],
+        "answer": "B"
+    },
+    {
+        "question": "19. What is the symbol of Sodium?",
+        "options": ["A. So", "B. Sn", "C. Na", "D. N"],
+        "answer": "C"
+    },
+    {
+        "question": "20. Which of the following is an alkali metal?",
+        "options": ["A. Calcium", "B. Iron", "C. Sodium", "D. Copper"],
+        "answer": "C"
+    },
+
+    # Mathematics
+    {
+        "question": "21. What is the derivative of x²?",
+        "options": ["A. 1", "B. 2x", "C. x", "D. x²"],
+        "answer": "B"
+    },
+    {
+        "question": "22. What is the value of π?",
+        "options": ["A. 2.14", "B. 3.14", "C. 3.41", "D. 4.13"],
+        "answer": "B"
+    },
+    {
+        "question": "23. Solve: 5 + 3 * 2",
+        "options": ["A. 11", "B. 16", "C. 21", "D. 13"],
+        "answer": "A"
+    },
+    {
+        "question": "24. What is the square root of 144?",
+        "options": ["A. 11", "B. 14", "C. 13", "D. 12"],
+        "answer": "D"
+    },
+    {
+        "question": "25. Which of the following is a prime number?",
+        "options": ["A. 9", "B. 15", "C. 17", "D. 21"],
+        "answer": "C"
+    }
 ]
 
 score = 0
